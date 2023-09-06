@@ -76,7 +76,7 @@ void Watchyvumeter::drawTime(){
     display.println("25");
     display.writeFastVLine(164, 20, 120, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
 
-    display.setCursor(185, 17);
+    display.setCursor(180, 17);
     display.println("30");
     display.writeFastVLine(194, 20, 120, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
 
